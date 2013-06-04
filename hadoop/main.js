@@ -4,7 +4,7 @@
 	var blockWidth=100,blockHeight=20;
 	var maxSlot=10
 	var padding=30
-	var colors=["rgba(255,0,0,","rgba(0,0,255,"]
+	var colors=["#FF47A3","#3366FF"]
 	var margin={left:50,top:5}
 	var height=2*maxSlot*blockHeight+padding+20+margin.top
 	function getType(id)
@@ -30,6 +30,7 @@
 			.attr("width", blocks.length*blockWidth*10)
 			.attr("height", height)
 		var x=d3.scale.linear().domain([0,maxLen]).range([0,blockWidth])
+		var selected=0
 		var svg=chart.selectAll("rect")
 			.data(blocks)
 			.enter().append("rect")
@@ -37,9 +38,9 @@
 			.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+0.5})
 			.attr("width", function(d){return x(d.len)})
 			.attr("height", function(d) { return blockHeight-0.5 })
-			.attr("fill",function(d){return colors[d.type]+1+")"})
-			.on("mouseover",function(d,i){blocks[i].ison=1;redraw(curLen)})
-			.on("mouseout",function(d,i){blocks[i].ison=0;redraw(curLen)})
+			.attr("fill",function(d){return colors[d.type]})
+			.on("mouseover",function(d){d.ison=1;selected=d;redraw(curLen)})
+			.on("mouseout",function(d,i){blocks[i].ison=0;selected=0;redraw(curLen)})
 
 /*		chart.selectAll("text")
 			.data(blocks)
@@ -55,30 +56,49 @@
 			.attr("class", "axis")
 			.attr("transform", "translate("+margin.left+"," + (height - padding) + ")")
 			.call(xAxis)
-
-
-
+		var line = [chart.append("line"),chart.append("line")]
 		var curLen=maxLen
-		d3.select("body").on("mousewheel",function(){if (curLen+event.wheelDelta/60<3)return;curLen+=event.wheelDelta/60;redraw(curLen)})
+		d3.select("body").on("mousewheel",function()
+							 {
+								 var delta=curLen*(event.wheelDelta/120)*0.15
+								 if (Math.abs(delta)<2)
+									 delta=event.wheelDelta/60
+								 if (curLen+delta<3)return
+								 curLen+=delta
+								 x=d3.scale.linear().domain([0,curLen]).range([0,blockWidth])
+								 redraw(curLen)
+							})
 
 		function redraw(curLen)
 		{
 			var x=d3.scale.linear().domain([0,curLen]).range([0,blockWidth])
 			var xAxis = d3.svg.axis().scale(d3.scale.linear().domain([0,maxTime]).range([0,x(maxTime)])).orient("bottom");
+			if (selected==0)
+				line.map(function(d){d.style("opacity",0)});
+			else
+			{
+				var d=selected
+				line[0].transition().duration(100)
+					.attr("x1",x(d.time)+margin.left).attr("y1",margin.top).attr("x2",x(d.time)+margin.left).attr("y2",height-padding)
+					.style("stroke", "#000").style("stroke-dasharray","5,5").style("opacity",1)
+				line[1].transition().duration(100)
+					.attr("x1",x(d.time+d.len)+margin.left).attr("y1",margin.top).attr("x2",x(d.time+d.len)+margin.left).attr("y2",height-padding)
+					.style("stroke", "#000").style("stroke-dasharray","5,5").style("opacity",1)
+			}			
 			chart.select("g")
 				.transition()
 				.duration(100)
 				.call(xAxis)
-			//		.text(function(d){return d.+"s"})
+				  //		.text(function(d){return d.+"s"})
 			chart.selectAll("rect")
 				.transition()
 				.duration(100)
 				.attr("x", function(d, i) { return x(d.time)+margin.left })
-				.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top})
+				.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+0.5})
 				.attr("width", function(d){return x(d.len)})
-				.attr("height", function(d) { return blockHeight })
-				.attr("fill",function(d){return colors[d.type]+(1-0.5*d.ison)+")"})
-			
+				.attr("height", function(d) { return blockHeight-0.5 })
+				.attr("fill",function(d){return colors[d.type]})
+				.attr("opacity",function(d){return 1-0.5*d.ison})
 /*			chart.selectAll("text")
 				.data(blocks)
 				.transition()
