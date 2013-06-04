@@ -24,7 +24,8 @@
 	{
 		var blocks=data.map(getEvent).reduce(function(a,b){return a.concat(b)})
 		var maxLen=d3.max(blocks.filter(function(d){return d.id.indexOf("_m_")>=0}).map(function(d){return d.len}))
-		var maxTime=d3.max(blocks.map(function(d){return d.time}))
+		var maxTime=d3.max(blocks.map(function(d){return d.time+d.len}))
+		alert(maxTime)
 		var chart = d3.select("body").append("svg")
 			.attr("class", "chart")
 			.attr("width", blocks.length*blockWidth*10)
