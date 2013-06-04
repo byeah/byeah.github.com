@@ -1,8 +1,8 @@
 jsondata=
 [
     {
-        "slot": 1,
-        "id": "attempt_201306042154_0010_m_000002_0",
+        "slot": 4,
+        "id": "attempt_201306042154_0011_m_000021_0",
         "events": [
             {
                 "event": "launch",
@@ -10,55 +10,13 @@ jsondata=
             },
             {
                 "event": "done",
-                "time": 8
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000016_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 8
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000000_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 11
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000019_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 11
+                "time": 201
             }
         ]
     },
     {
         "slot": 7,
-        "id": "attempt_201306042154_0010_m_000017_0",
+        "id": "attempt_201306042154_0011_m_000024_0",
         "events": [
             {
                 "event": "launch",
@@ -66,55 +24,13 @@ jsondata=
             },
             {
                 "event": "done",
-                "time": 11
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000008_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 11
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000003_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 11
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000012_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 11
+                "time": 214
             }
         ]
     },
     {
         "slot": 9,
-        "id": "attempt_201306042154_0010_m_000022_0",
+        "id": "attempt_201306042154_0011_m_000026_0",
         "events": [
             {
                 "event": "launch",
@@ -122,1701 +38,1505 @@ jsondata=
             },
             {
                 "event": "done",
-                "time": 11
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000006_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 0
-            },
-            {
-                "event": "done",
-                "time": 12
+                "time": 214
             }
         ]
     },
     {
         "slot": 1,
-        "id": "attempt_201306042154_0010_m_000041_0",
+        "id": "attempt_201306042154_0011_m_000018_0",
         "events": [
             {
                 "event": "launch",
-                "time": 9
+                "time": 0
             },
             {
                 "event": "done",
-                "time": 16
+                "time": 220
             }
         ]
     },
     {
         "slot": 3,
-        "id": "attempt_201306042154_0010_m_000072_0",
+        "id": "attempt_201306042154_0011_m_000020_0",
         "events": [
             {
                 "event": "launch",
-                "time": 15
+                "time": 0
             },
             {
                 "event": "done",
-                "time": 22
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000056_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 12
-            },
-            {
-                "event": "done",
-                "time": 22
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000058_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 12
-            },
-            {
-                "event": "done",
-                "time": 22
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000051_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 12
-            },
-            {
-                "event": "done",
-                "time": 22
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000059_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 12
-            },
-            {
-                "event": "done",
-                "time": 23
+                "time": 221
             }
         ]
     },
     {
         "slot": 2,
-        "id": "attempt_201306042154_0010_m_000045_0",
+        "id": "attempt_201306042154_0011_m_000019_0",
         "events": [
             {
                 "event": "launch",
-                "time": 12
+                "time": 0
             },
             {
                 "event": "done",
-                "time": 23
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000054_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 12
-            },
-            {
-                "event": "done",
-                "time": 23
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000055_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 12
-            },
-            {
-                "event": "done",
-                "time": 23
+                "time": 226
             }
         ]
     },
     {
         "slot": 0,
-        "id": "attempt_201306042154_0010_m_000043_0",
+        "id": "attempt_201306042154_0011_m_000017_0",
         "events": [
             {
                 "event": "launch",
-                "time": 12
+                "time": 0
             },
             {
                 "event": "done",
-                "time": 23
+                "time": 269
+            }
+        ]
+    },
+    {
+        "slot": 5,
+        "id": "attempt_201306042154_0011_m_000022_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 0
+            },
+            {
+                "event": "done",
+                "time": 298
+            }
+        ]
+    },
+    {
+        "slot": 8,
+        "id": "attempt_201306042154_0011_m_000025_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 0
+            },
+            {
+                "event": "done",
+                "time": 312
+            }
+        ]
+    },
+    {
+        "slot": 6,
+        "id": "attempt_201306042154_0011_m_000023_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 0
+            },
+            {
+                "event": "done",
+                "time": 324
+            }
+        ]
+    },
+    {
+        "slot": 3,
+        "id": "attempt_201306042154_0011_m_000063_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 246
+            },
+            {
+                "event": "done",
+                "time": 631
+            }
+        ]
+    },
+    {
+        "slot": 4,
+        "id": "attempt_201306042154_0011_m_000054_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 203
+            },
+            {
+                "event": "done",
+                "time": 631
             }
         ]
     },
     {
         "slot": 1,
-        "id": "attempt_201306042154_0010_m_000081_0",
+        "id": "attempt_201306042154_0011_m_000058_0",
         "events": [
             {
                 "event": "launch",
-                "time": 18
+                "time": 226
             },
             {
                 "event": "done",
-                "time": 26
+                "time": 645
             }
         ]
     },
     {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000099_0",
+        "slot": 0,
+        "id": "attempt_201306042154_0011_m_000066_0",
         "events": [
             {
                 "event": "launch",
-                "time": 24
+                "time": 273
             },
             {
                 "event": "done",
-                "time": 32
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000096_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 24
-            },
-            {
-                "event": "done",
-                "time": 32
+                "time": 678
             }
         ]
     },
     {
         "slot": 8,
-        "id": "attempt_201306042154_0010_m_000098_0",
+        "id": "attempt_201306042154_0011_m_000075_0",
         "events": [
             {
                 "event": "launch",
-                "time": 24
+                "time": 317
             },
             {
                 "event": "done",
-                "time": 32
+                "time": 678
             }
         ]
     },
     {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000097_0",
+        "slot": 5,
+        "id": "attempt_201306042154_0011_m_000072_0",
         "events": [
             {
                 "event": "launch",
-                "time": 24
+                "time": 306
             },
             {
                 "event": "done",
-                "time": 32
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000088_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 24
-            },
-            {
-                "event": "done",
-                "time": 35
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000089_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 24
-            },
-            {
-                "event": "done",
-                "time": 35
+                "time": 681
             }
         ]
     },
     {
         "slot": 2,
-        "id": "attempt_201306042154_0010_m_000083_0",
+        "id": "attempt_201306042154_0011_m_000062_0",
         "events": [
             {
                 "event": "launch",
-                "time": 24
+                "time": 246
             },
             {
                 "event": "done",
-                "time": 35
+                "time": 687
+            }
+        ]
+    },
+    {
+        "slot": 7,
+        "id": "attempt_201306042154_0011_m_000056_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 217
+            },
+            {
+                "event": "done",
+                "time": 699
+            }
+        ]
+    },
+    {
+        "slot": 6,
+        "id": "attempt_201306042154_0011_m_000078_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 328
+            },
+            {
+                "event": "done",
+                "time": 701
+            }
+        ]
+    },
+    {
+        "slot": 9,
+        "id": "attempt_201306042154_0011_m_000057_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 217
+            },
+            {
+                "event": "done",
+                "time": 716
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0011_m_000059_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 682
+            },
+            {
+                "event": "kill",
+                "time": 725
             }
         ]
     },
     {
         "slot": 1,
-        "id": "attempt_201306042154_0010_m_000120_0",
+        "id": "attempt_201306042154_0011_m_000053_1",
         "events": [
             {
                 "event": "launch",
-                "time": 27
+                "time": 648
             },
             {
-                "event": "done",
-                "time": 35
+                "event": "kill",
+                "time": 733
             }
         ]
     },
     {
         "slot": 5,
-        "id": "attempt_201306042154_0010_m_000095_0",
+        "id": "attempt_201306042154_0011_m_000060_1",
         "events": [
             {
                 "event": "launch",
-                "time": 24
+                "time": 686
             },
             {
-                "event": "done",
-                "time": 35
+                "event": "kill",
+                "time": 737
             }
         ]
     },
     {
         "slot": 0,
-        "id": "attempt_201306042154_0010_m_000082_0",
+        "id": "attempt_201306042154_0011_m_000059_1",
         "events": [
             {
                 "event": "launch",
-                "time": 24
+                "time": 733
             },
             {
                 "event": "done",
-                "time": 35
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000127_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 33
-            },
-            {
-                "event": "done",
-                "time": 37
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000128_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 33
-            },
-            {
-                "event": "done",
-                "time": 37
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000124_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 33
-            },
-            {
-                "event": "done",
-                "time": 37
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000126_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 33
-            },
-            {
-                "event": "done",
-                "time": 37
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000154_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 36
-            },
-            {
-                "event": "done",
-                "time": 41
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000155_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 36
-            },
-            {
-                "event": "done",
-                "time": 44
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000150_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 36
-            },
-            {
-                "event": "done",
-                "time": 44
+                "time": 739
             }
         ]
     },
     {
         "slot": 1,
-        "id": "attempt_201306042154_0010_m_000152_0",
+        "id": "attempt_201306042154_0011_m_000053_1",
         "events": [
             {
                 "event": "launch",
-                "time": 36
+                "time": 737
             },
             {
                 "event": "done",
-                "time": 44
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000153_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 36
-            },
-            {
-                "event": "done",
-                "time": 44
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000157_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 36
-            },
-            {
-                "event": "done",
-                "time": 44
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000162_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 39
-            },
-            {
-                "event": "done",
-                "time": 45
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000164_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 39
-            },
-            {
-                "event": "done",
-                "time": 47
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000158_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 39
-            },
-            {
-                "event": "done",
-                "time": 47
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000163_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 39
-            },
-            {
-                "event": "done",
-                "time": 48
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000170_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 43
-            },
-            {
-                "event": "done",
-                "time": 48
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000198_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 46
-            },
-            {
-                "event": "done",
-                "time": 51
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000196_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 46
-            },
-            {
-                "event": "done",
-                "time": 51
+                "time": 741
             }
         ]
     },
     {
         "slot": 0,
-        "id": "attempt_201306042154_0010_m_000192_0",
+        "id": "attempt_201306042154_0011_m_000060_1",
         "events": [
             {
                 "event": "launch",
-                "time": 46
+                "time": 741
             },
             {
                 "event": "done",
-                "time": 51
+                "time": 746
+            }
+        ]
+    },
+    {
+        "slot": 2,
+        "id": "attempt_201306042154_0011_m_000064_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 698
+            },
+            {
+                "event": "done",
+                "time": 804
+            }
+        ]
+    },
+    {
+        "slot": 6,
+        "id": "attempt_201306042154_0011_m_000065_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 701
+            },
+            {
+                "event": "done",
+                "time": 817
             }
         ]
     },
     {
         "slot": 4,
-        "id": "attempt_201306042154_0010_m_000195_0",
+        "id": "attempt_201306042154_0011_m_000051_1",
         "events": [
             {
                 "event": "launch",
-                "time": 46
+                "time": 637
             },
             {
                 "event": "done",
-                "time": 52
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000194_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 46
-            },
-            {
-                "event": "done",
-                "time": 52
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000205_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 49
-            },
-            {
-                "event": "done",
-                "time": 54
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000208_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 49
-            },
-            {
-                "event": "done",
-                "time": 54
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000206_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 49
-            },
-            {
-                "event": "done",
-                "time": 54
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000203_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 49
-            },
-            {
-                "event": "done",
-                "time": 54
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000193_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 52
-            },
-            {
-                "event": "done",
-                "time": 56
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000221_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 63
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000233_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 63
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000232_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 63
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000223_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 63
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000225_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 63
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000229_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 63
-            }
-        ]
-    },
-    {
-        "slot": 18,
-        "id": "attempt_201306042154_0010_m_000236_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 64
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000224_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 55
-            },
-            {
-                "event": "done",
-                "time": 64
+                "time": 836
             }
         ]
     },
     {
         "slot": 7,
-        "id": "attempt_201306042154_0010_m_000231_0",
+        "id": "attempt_201306042154_0011_m_000068_1",
         "events": [
             {
                 "event": "launch",
-                "time": 55
+                "time": 717
             },
             {
                 "event": "done",
-                "time": 64
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000243_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 58
-            },
-            {
-                "event": "done",
-                "time": 64
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000285_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 70
+                "time": 836
             }
         ]
     },
     {
         "slot": 3,
-        "id": "attempt_201306042154_0010_m_000277_0",
+        "id": "attempt_201306042154_0011_m_000095_0",
         "events": [
             {
                 "event": "launch",
-                "time": 64
+                "time": 637
             },
             {
                 "event": "done",
-                "time": 70
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000283_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 70
-            }
-        ]
-    },
-    {
-        "slot": 18,
-        "id": "attempt_201306042154_0010_m_000289_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 73
+                "time": 842
             }
         ]
     },
     {
         "slot": 0,
-        "id": "attempt_201306042154_0010_m_000301_0",
+        "id": "attempt_201306042154_0011_m_000076_1",
         "events": [
             {
                 "event": "launch",
-                "time": 67
+                "time": 749
             },
             {
                 "event": "done",
-                "time": 73
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000281_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 74
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000288_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 74
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000279_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 74
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000274_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 74
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000287_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 64
-            },
-            {
-                "event": "done",
-                "time": 74
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000315_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 73
-            },
-            {
-                "event": "done",
-                "time": 77
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000314_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 73
-            },
-            {
-                "event": "done",
-                "time": 77
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000316_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 73
-            },
-            {
-                "event": "done",
-                "time": 77
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000334_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 76
-            },
-            {
-                "event": "done",
-                "time": 80
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000335_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 76
-            },
-            {
-                "event": "done",
-                "time": 80
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000333_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 76
-            },
-            {
-                "event": "done",
-                "time": 81
-            }
-        ]
-    },
-    {
-        "slot": 18,
-        "id": "attempt_201306042154_0010_m_000339_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 76
-            },
-            {
-                "event": "done",
-                "time": 81
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000337_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 76
-            },
-            {
-                "event": "done",
-                "time": 81
+                "time": 846
             }
         ]
     },
     {
         "slot": 0,
-        "id": "attempt_201306042154_0010_m_000329_0",
+        "id": "attempt_201306042154_0011_m_000071_0",
         "events": [
             {
                 "event": "launch",
-                "time": 76
+                "time": 875
             },
             {
                 "event": "done",
-                "time": 81
+                "time": 879
             }
         ]
     },
     {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000338_0",
+        "slot": 1,
+        "id": "attempt_201306042154_0011_m_000076_0",
         "events": [
             {
                 "event": "launch",
-                "time": 76
+                "time": 878
             },
             {
                 "event": "done",
-                "time": 81
+                "time": 882
             }
         ]
     },
     {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000356_0",
+        "slot": 10,
+        "id": "attempt_201306042154_0011_r_000002_0",
         "events": [
             {
                 "event": "launch",
-                "time": 79
+                "time": 24
+            },
+            {
+                "event": "sort",
+                "time": 940
+            },
+            {
+                "event": "reduce",
+                "time": 979
             },
             {
                 "event": "done",
-                "time": 84
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000354_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 79
-            },
-            {
-                "event": "done",
-                "time": 84
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000350_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 79
-            },
-            {
-                "event": "done",
-                "time": 84
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000367_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 86
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000370_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 87
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000371_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 87
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000366_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 87
-            }
-        ]
-    },
-    {
-        "slot": 18,
-        "id": "attempt_201306042154_0010_m_000374_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 87
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000373_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 87
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000363_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 82
-            },
-            {
-                "event": "done",
-                "time": 87
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000389_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 85
-            },
-            {
-                "event": "done",
-                "time": 90
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000393_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 85
-            },
-            {
-                "event": "done",
-                "time": 90
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000392_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 85
-            },
-            {
-                "event": "done",
-                "time": 90
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000409_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 18,
-        "id": "attempt_201306042154_0010_m_000411_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000407_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000406_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000408_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000403_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000410_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 88
-            },
-            {
-                "event": "done",
-                "time": 93
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000434_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 91
-            },
-            {
-                "event": "done",
-                "time": 96
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000431_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 91
-            },
-            {
-                "event": "done",
-                "time": 96
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000432_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 91
-            },
-            {
-                "event": "done",
-                "time": 96
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000442_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000443_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 8,
-        "id": "attempt_201306042154_0010_m_000449_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 4,
-        "id": "attempt_201306042154_0010_m_000446_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 9,
-        "id": "attempt_201306042154_0010_m_000450_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 5,
-        "id": "attempt_201306042154_0010_m_000448_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 18,
-        "id": "attempt_201306042154_0010_m_000451_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 94
-            },
-            {
-                "event": "done",
-                "time": 99
-            }
-        ]
-    },
-    {
-        "slot": 6,
-        "id": "attempt_201306042154_0010_m_000469_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 97
-            },
-            {
-                "event": "done",
-                "time": 102
-            }
-        ]
-    },
-    {
-        "slot": 7,
-        "id": "attempt_201306042154_0010_m_000471_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 97
-            },
-            {
-                "event": "done",
-                "time": 102
-            }
-        ]
-    },
-    {
-        "slot": 3,
-        "id": "attempt_201306042154_0010_m_000468_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 97
-            },
-            {
-                "event": "done",
-                "time": 102
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000452_1",
-        "events": [
-            {
-                "event": "launch",
-                "time": 100
-            },
-            {
-                "event": "done",
-                "time": 104
-            }
-        ]
-    },
-    {
-        "slot": 2,
-        "id": "attempt_201306042154_0010_m_000458_1",
-        "events": [
-            {
-                "event": "launch",
-                "time": 103
-            },
-            {
-                "event": "done",
-                "time": 107
-            }
-        ]
-    },
-    {
-        "slot": 0,
-        "id": "attempt_201306042154_0010_m_000461_1",
-        "events": [
-            {
-                "event": "launch",
-                "time": 106
-            },
-            {
-                "event": "done",
-                "time": 110
-            }
-        ]
-    },
-    {
-        "slot": 17,
-        "id": "attempt_201306042154_0010_r_000031_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 36
-            },
-            {
-                "event": "done",
-                "time": 192
+                "time": 1217
             }
         ]
     },
     {
         "slot": 13,
-        "id": "attempt_201306042154_0010_r_000015_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 24
-            },
-            {
-                "event": "done",
-                "time": 203
-            }
-        ]
-    },
-    {
-        "slot": 16,
-        "id": "attempt_201306042154_0010_r_000027_0",
+        "id": "attempt_201306042154_0011_r_000014_0",
         "events": [
             {
                 "event": "launch",
                 "time": 33
             },
             {
+                "event": "sort",
+                "time": 939
+            },
+            {
+                "event": "reduce",
+                "time": 993
+            },
+            {
                 "event": "done",
-                "time": 204
+                "time": 1229
             }
         ]
     },
     {
         "slot": 15,
-        "id": "attempt_201306042154_0010_r_000023_0",
+        "id": "attempt_201306042154_0011_r_000023_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 39
+            },
+            {
+                "event": "sort",
+                "time": 936
+            },
+            {
+                "event": "reduce",
+                "time": 993
+            },
+            {
+                "event": "done",
+                "time": 1232
+            }
+        ]
+    },
+    {
+        "slot": 16,
+        "id": "attempt_201306042154_0011_r_000026_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 42
+            },
+            {
+                "event": "sort",
+                "time": 939
+            },
+            {
+                "event": "reduce",
+                "time": 979
+            },
+            {
+                "event": "done",
+                "time": 1232
+            }
+        ]
+    },
+    {
+        "slot": 14,
+        "id": "attempt_201306042154_0011_r_000019_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 36
+            },
+            {
+                "event": "sort",
+                "time": 937
+            },
+            {
+                "event": "reduce",
+                "time": 982
+            },
+            {
+                "event": "done",
+                "time": 1232
+            }
+        ]
+    },
+    {
+        "slot": 17,
+        "id": "attempt_201306042154_0011_r_000030_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 45
+            },
+            {
+                "event": "sort",
+                "time": 938
+            },
+            {
+                "event": "reduce",
+                "time": 979
+            },
+            {
+                "event": "done",
+                "time": 1235
+            }
+        ]
+    },
+    {
+        "slot": 12,
+        "id": "attempt_201306042154_0011_r_000010_0",
         "events": [
             {
                 "event": "launch",
                 "time": 30
             },
             {
+                "event": "sort",
+                "time": 937
+            },
+            {
+                "event": "reduce",
+                "time": 996
+            },
+            {
                 "event": "done",
-                "time": 206
+                "time": 1239
             }
         ]
     },
     {
         "slot": 11,
-        "id": "attempt_201306042154_0010_r_000007_0",
-        "events": [
-            {
-                "event": "launch",
-                "time": 18
-            },
-            {
-                "event": "done",
-                "time": 207
-            }
-        ]
-    },
-    {
-        "slot": 14,
-        "id": "attempt_201306042154_0010_r_000019_0",
+        "id": "attempt_201306042154_0011_r_000006_0",
         "events": [
             {
                 "event": "launch",
                 "time": 27
             },
             {
+                "event": "sort",
+                "time": 937
+            },
+            {
+                "event": "reduce",
+                "time": 1014
+            },
+            {
                 "event": "done",
-                "time": 209
+                "time": 1274
             }
         ]
     },
     {
-        "slot": 10,
-        "id": "attempt_201306042154_0010_r_000003_0",
+        "slot": 1,
+        "id": "attempt_201306042154_0011_r_000036_1",
         "events": [
             {
                 "event": "launch",
-                "time": 15
+                "time": 1226
+            },
+            {
+                "event": "sort",
+                "time": 1252
+            },
+            {
+                "event": "reduce",
+                "time": 1273
+            },
+            {
+                "event": "kill",
+                "time": 1440
+            }
+        ]
+    },
+    {
+        "slot": 2,
+        "id": "attempt_201306042154_0011_r_000038_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1229
+            },
+            {
+                "event": "sort",
+                "time": 1255
+            },
+            {
+                "event": "reduce",
+                "time": 1273
+            },
+            {
+                "event": "kill",
+                "time": 1443
+            }
+        ]
+    },
+    {
+        "slot": 3,
+        "id": "attempt_201306042154_0011_r_000041_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1232
+            },
+            {
+                "event": "sort",
+                "time": 1258
+            },
+            {
+                "event": "reduce",
+                "time": 1276
+            },
+            {
+                "event": "kill",
+                "time": 1446
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0011_r_000036_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1443
             },
             {
                 "event": "done",
-                "time": 210
+                "time": 1447
+            }
+        ]
+    },
+    {
+        "slot": 2,
+        "id": "attempt_201306042154_0011_r_000038_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1446
+            },
+            {
+                "event": "done",
+                "time": 1450
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0011_r_000041_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1449
+            },
+            {
+                "event": "done",
+                "time": 1453
+            }
+        ]
+    },
+    {
+        "slot": 4,
+        "id": "attempt_201306042154_0011_r_000042_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1235
+            },
+            {
+                "event": "sort",
+                "time": 1258
+            },
+            {
+                "event": "reduce",
+                "time": 1276
+            },
+            {
+                "event": "kill",
+                "time": 1455
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0011_r_000042_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1458
+            },
+            {
+                "event": "done",
+                "time": 1462
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0011_r_000040_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1214
+            },
+            {
+                "event": "sort",
+                "time": 1236
+            },
+            {
+                "event": "reduce",
+                "time": 1258
+            },
+            {
+                "event": "kill",
+                "time": 1467
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0011_r_000040_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1470
+            },
+            {
+                "event": "done",
+                "time": 1474
+            }
+        ]
+    },
+    {
+        "slot": 8,
+        "id": "attempt_201306042154_0012_m_000028_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1909
+            }
+        ]
+    },
+    {
+        "slot": 7,
+        "id": "attempt_201306042154_0012_m_000027_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1909
+            }
+        ]
+    },
+    {
+        "slot": 2,
+        "id": "attempt_201306042154_0012_m_000016_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1919
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000013_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1919
+            }
+        ]
+    },
+    {
+        "slot": 4,
+        "id": "attempt_201306042154_0012_m_000023_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1928
+            }
+        ]
+    },
+    {
+        "slot": 3,
+        "id": "attempt_201306042154_0012_m_000019_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1940
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000002_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1924
+            },
+            {
+                "event": "kill",
+                "time": 1953
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000002_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1956
+            },
+            {
+                "event": "done",
+                "time": 1968
+            }
+        ]
+    },
+    {
+        "slot": 6,
+        "id": "attempt_201306042154_0012_m_000026_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 1995
+            }
+        ]
+    },
+    {
+        "slot": 4,
+        "id": "attempt_201306042154_0012_m_000009_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1931
+            },
+            {
+                "event": "kill",
+                "time": 2012
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000009_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2015
+            },
+            {
+                "event": "done",
+                "time": 2021
+            }
+        ]
+    },
+    {
+        "slot": 3,
+        "id": "attempt_201306042154_0012_m_000011_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1942
+            },
+            {
+                "event": "kill",
+                "time": 2029
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000011_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2032
+            },
+            {
+                "event": "done",
+                "time": 2036
+            }
+        ]
+    },
+    {
+        "slot": 5,
+        "id": "attempt_201306042154_0012_m_000025_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 2061
+            }
+        ]
+    },
+    {
+        "slot": 9,
+        "id": "attempt_201306042154_0012_m_000029_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 2093
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0012_m_000014_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1494
+            },
+            {
+                "event": "done",
+                "time": 2155
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0012_m_000044_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2157
+            },
+            {
+                "event": "kill",
+                "time": 2194
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0012_m_000044_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2197
+            },
+            {
+                "event": "done",
+                "time": 2206
+            }
+        ]
+    },
+    {
+        "slot": 3,
+        "id": "attempt_201306042154_0012_m_000039_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2094
+            },
+            {
+                "event": "kill",
+                "time": 2254
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000033_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2038
+            },
+            {
+                "event": "kill",
+                "time": 2260
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0012_m_000039_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2257
+            },
+            {
+                "event": "done",
+                "time": 2261
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000033_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2263
+            },
+            {
+                "event": "done",
+                "time": 2268
+            }
+        ]
+    },
+    {
+        "slot": 8,
+        "id": "attempt_201306042154_0012_m_000037_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1916
+            },
+            {
+                "event": "done",
+                "time": 2398
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0012_m_000031_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2267
+            },
+            {
+                "event": "done",
+                "time": 2405
+            }
+        ]
+    },
+    {
+        "slot": 7,
+        "id": "attempt_201306042154_0012_m_000032_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1916
+            },
+            {
+                "event": "done",
+                "time": 2410
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000041_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2270
+            },
+            {
+                "event": "done",
+                "time": 2411
+            }
+        ]
+    },
+    {
+        "slot": 14,
+        "id": "attempt_201306042154_0012_r_000019_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1935
+            },
+            {
+                "event": "reduce",
+                "time": 2504
+            },
+            {
+                "event": "done",
+                "time": 2546
             }
         ]
     },
     {
         "slot": 12,
-        "id": "attempt_201306042154_0010_r_000011_0",
+        "id": "attempt_201306042154_0012_r_000012_0",
         "events": [
             {
                 "event": "launch",
-                "time": 21
+                "time": 1927
+            },
+            {
+                "event": "reduce",
+                "time": 2503
             },
             {
                 "event": "done",
-                "time": 210
+                "time": 2548
+            }
+        ]
+    },
+    {
+        "slot": 10,
+        "id": "attempt_201306042154_0012_r_000000_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1916
+            },
+            {
+                "event": "reduce",
+                "time": 2502
+            },
+            {
+                "event": "done",
+                "time": 2551
+            }
+        ]
+    },
+    {
+        "slot": 16,
+        "id": "attempt_201306042154_0012_r_000027_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1942
+            },
+            {
+                "event": "reduce",
+                "time": 2502
+            },
+            {
+                "event": "done",
+                "time": 2553
+            }
+        ]
+    },
+    {
+        "slot": 11,
+        "id": "attempt_201306042154_0012_r_000009_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1924
+            },
+            {
+                "event": "reduce",
+                "time": 2504
+            },
+            {
+                "event": "done",
+                "time": 2555
+            }
+        ]
+    },
+    {
+        "slot": 13,
+        "id": "attempt_201306042154_0012_r_000015_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1932
+            },
+            {
+                "event": "reduce",
+                "time": 2504
+            },
+            {
+                "event": "done",
+                "time": 2568
+            }
+        ]
+    },
+    {
+        "slot": 15,
+        "id": "attempt_201306042154_0012_r_000023_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1939
+            },
+            {
+                "event": "sort",
+                "time": 2501
+            },
+            {
+                "event": "reduce",
+                "time": 2504
+            },
+            {
+                "event": "done",
+                "time": 2571
+            }
+        ]
+    },
+    {
+        "slot": 2,
+        "id": "attempt_201306042154_0012_r_000005_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 1919
+            },
+            {
+                "event": "reduce",
+                "time": 2505
+            },
+            {
+                "event": "done",
+                "time": 2572
+            }
+        ]
+    },
+    {
+        "slot": 8,
+        "id": "attempt_201306042154_0012_r_000034_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2571
+            },
+            {
+                "event": "kill",
+                "time": 2624
+            }
+        ]
+    },
+    {
+        "slot": 2,
+        "id": "attempt_201306042154_0012_r_000034_1",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2627
+            },
+            {
+                "event": "done",
+                "time": 2631
+            }
+        ]
+    },
+    {
+        "slot": 5,
+        "id": "attempt_201306042154_0012_r_000042_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2556
+            },
+            {
+                "event": "reduce",
+                "time": 2612
+            },
+            {
+                "event": "done",
+                "time": 2661
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_r_000033_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2544
+            },
+            {
+                "event": "reduce",
+                "time": 2631
+            },
+            {
+                "event": "kill",
+                "time": 2667
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_r_000033_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2670
+            },
+            {
+                "event": "done",
+                "time": 2674
+            }
+        ]
+    },
+    {
+        "slot": 7,
+        "id": "attempt_201306042154_0012_r_000047_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2568
+            },
+            {
+                "event": "reduce",
+                "time": 2664
+            },
+            {
+                "event": "done",
+                "time": 2716
+            }
+        ]
+    },
+    {
+        "slot": 1,
+        "id": "attempt_201306042154_0012_r_000035_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2547
+            },
+            {
+                "event": "reduce",
+                "time": 2692
+            },
+            {
+                "event": "kill",
+                "time": 2737
+            }
+        ]
+    },
+    {
+        "slot": 3,
+        "id": "attempt_201306042154_0012_r_000038_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2550
+            },
+            {
+                "event": "reduce",
+                "time": 2698
+            },
+            {
+                "event": "done",
+                "time": 2740
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_r_000035_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2740
+            },
+            {
+                "event": "done",
+                "time": 2744
+            }
+        ]
+    },
+    {
+        "slot": 4,
+        "id": "attempt_201306042154_0012_r_000040_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2553
+            },
+            {
+                "event": "reduce",
+                "time": 2710
+            },
+            {
+                "event": "done",
+                "time": 2755
+            }
+        ]
+    },
+    {
+        "slot": 6,
+        "id": "attempt_201306042154_0012_r_000045_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2565
+            },
+            {
+                "event": "reduce",
+                "time": 2713
+            },
+            {
+                "event": "done",
+                "time": 2758
+            }
+        ]
+    },
+    {
+        "slot": 0,
+        "id": "attempt_201306042154_0012_m_000048_0",
+        "events": [
+            {
+                "event": "launch",
+                "time": 2761
+            },
+            {
+                "event": "done",
+                "time": 2764
             }
         ]
     }

@@ -4,29 +4,48 @@
 	var blockWidth=100,blockHeight=20;
 	var maxSlot=10
 	var padding=30
-	var colors=["#FF47A3","#3366FF"]
-	var margin={left:50,top:5}
+	var margin={left:50,top:40}
 	var height=2*maxSlot*blockHeight+padding+20+margin.top
-	function getType(id)
+
+	function getType(id,d)
 	{
-		if (id.indexOf("_m_")>=0)
-			return 0
+		if (d.event=="launch")
+			if (id.indexOf("_m_")>=0)
+				return 0 //map
+		    else
+				return 1 //reduce_copy
 		else
-			return 1
+			if (d.event=="sort")
+				return 2 //reduce_sort
+		    else
+				return 3 //reduce_reduce
 	}
 
 	function getEvent(d)
 	{
-		return [{id:d.id,type:getType(d.id),slot:d.slot,len:d.events[1].time-d.events[0].time,time:d.events[0].time,ison:0}]
+		res=[]
+		for(var i=0;i<d.events.length-1;i++)
+		{
+			cur={id:d.id,type:getType(d.id,d.events[i]),slot:d.slot,len:d.events[i+1].time-d.events[i].time,time:d.events[i].time,ison:0}
+			res.push(cur)
+		}
+		return res
+//		return [{id:d.id,type:getType(d.id),slot:d.slot,len:d.events[1].time-d.events[0].time,time:d.events[0].time,ison:0}]
 	}
 
-
+	function getMax(i,b)
+	{
+		return d3.max(b.filter(function(d){return d.type==i}).map(function(d){return d.len}))
+	}
+	
 	function display(data)
 	{
 		var blocks=data.map(getEvent).reduce(function(a,b){return a.concat(b)})
+		var maxLens=[]
+		for(var i=0;i<4;i++)
+			maxLens[i]=getMax(i,blocks)
+		console.log(maxLens)
 		var maxLen=d3.max(blocks.map(function(d){return d.len}))
-		var maxMapLen=d3.max(blocks.filter(function(d){return d.id.indexOf("_m_")>=0}).map(function(d){return d.len}))
-		var maxReduceLen=d3.max(blocks.filter(function(d){return d.id.indexOf("_r_")>=0}).map(function(d){return d.len}))
 		var maxTime=d3.max(blocks.map(function(d){return d.time+d.len}))
 		var chart = d3.select("body").append("svg")
 			.attr("class", "chart")
@@ -118,15 +137,14 @@
 
 		function getColor(d)
 		{
-//			console.log(d.type,d.len,maxMapLen,maxReduceLen)
 			if (d.type==0)
-			{
-			//	console.log((255-d.len/maxMapLen*255))
-//				console.log("rgb(255,51,"+int(255-d.len/maxMapLen*255)+")")
-				return "rgb(255,51,"+Math.round(255-d.len/maxMapLen*255)+")"
-			}
-			else
-				return "rgb(0,51,"+Math.round(d3.scale.linear().domain([0,maxReduceLen]).range([255,153])(d.len))+")"
+				return "rgb(255,51,"+Math.round(255-d.len/maxLens[0]*255)+")"
+			if (d.type==1)
+				return "rgb("+Math.round(d3.scale.linear().domain([0,maxLens[1]]).range([153,0])(d.len))+",153,255)"
+			if (d.type==2)
+				return "rgb(255,255,"+Math.round(255-d.len/maxLens[2]*255)+")"
+			if (d.type==3)
+				return "rgb("+Math.round(d3.scale.linear().domain([0,maxLens[3]]).range([205,0])(d.len))+",255,255)"
 		}
 	}
 
