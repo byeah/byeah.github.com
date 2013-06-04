@@ -6,6 +6,7 @@
 	var padding=30
 	var margin={left:50,top:40}
 	var height=2*maxSlot*blockHeight+padding+20+margin.top
+	var gap=5
 
 	function getType(id,d)
 	{
@@ -58,9 +59,9 @@
 			.data(blocks)
 			.enter().append("rect")
 			.attr("x", function(d, i) { return x(d.time)+margin.left })
-			.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+0.5})
+			.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+gap})
 			.attr("width", function(d){return x(d.len)})
-			.attr("height", function(d) { return blockHeight-0.5 })
+			.attr("height", function(d) { return blockHeight-gap })
 			.attr("fill",function(d){return getColor(d)})
 			.on("mouseover",function(d){d.ison=1;selected=d;redraw(curLen)})
 			.on("mouseout",function(d,i){blocks[i].ison=0;selected=0;redraw(curLen)})
@@ -117,9 +118,9 @@
 				.transition()
 				.duration(100)
 				.attr("x", function(d, i) { return x(d.time)+margin.left })
-				.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+0.5})
+				.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+gap})
 				.attr("width", function(d){return x(d.len)})
-				.attr("height", function(d) { return blockHeight-0.5 })
+				.attr("height", function(d) { return blockHeight-gap })
 				.attr("fill",function(d){return getColor(d)})
 				.attr("opacity",function(d){return 1-0.5*d.ison})
 /*			chart.selectAll("text")
