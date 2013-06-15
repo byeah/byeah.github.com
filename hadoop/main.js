@@ -2,11 +2,16 @@
 {
 	//const value here
 	var blockWidth=100,blockHeight=20;
-	var maxSlot=10
+	var maxSlot=12
 	var padding=30
 	var margin={left:50,top:40}
 	var height=2*maxSlot*blockHeight+padding+20+margin.top
 	var gap=5
+	var colorR=[[[255,255],[51,51],[255,0]],
+				[[140,30],[140,30],[255,255]],
+				[[255,255],[255,255],[255,0]],
+				[[205,0],[255,255],[255,255]]
+			   ];
 
 	function getType(id,d)
 	{
@@ -45,7 +50,13 @@
 		var maxLens=[]
 		for(var i=0;i<4;i++)
 			maxLens[i]=getMax(i,blocks)
-		console.log(maxLens)
+		
+		var func=colorR.map(function(d,i)
+							{
+								return d.map(function(dd){return d3.scale.linear().domain([0,maxLens[i]]).range(dd)})
+							});
+		maxSlot=d3.max(blocks.map(function(d){return d.slot}))+1
+		height=maxSlot*blockHeight+padding+20+margin.top
 		var maxLen=d3.max(blocks.map(function(d){return d.len}))
 		var maxTime=d3.max(blocks.map(function(d){return d.time+d.len}))
 		var chart = d3.select("body").append("svg")
@@ -60,11 +71,18 @@
 			.enter().append("rect")
 			.attr("x", function(d, i) { return x(d.time)+margin.left })
 			.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+gap})
-			.attr("width", function(d){return x(d.len)})
 			.attr("height", function(d) { return blockHeight-gap })
 			.attr("fill",function(d){return getColor(d)})
 			.on("mouseover",function(d){d.ison=1;selected=d;redraw(curLen)})
 			.on("mouseout",function(d,i){blocks[i].ison=0;selected=0;redraw(curLen)})
+			.transition()
+			.duration(1000)
+//			.delay(function(d){return x(d.time)*10})
+//			.duration(function(d){return x(d.len)*10} )
+//			.ease(function(x){return x})
+			.attr("width", function(d){return x(d.len)})
+
+
 
 /*		chart.selectAll("text")
 			.data(blocks)
@@ -115,14 +133,14 @@
 				.call(xAxis)
 				  //		.text(function(d){return d.+"s"})
 			chart.selectAll("rect")
-				.transition()
-				.duration(100)
-				.attr("x", function(d, i) { return x(d.time)+margin.left })
 				.attr("y", function(d){return (maxSlot*(d.id.indexOf("_rr_")>=0)+d.slot)*blockHeight+margin.top+gap})
-				.attr("width", function(d){return x(d.len)})
 				.attr("height", function(d) { return blockHeight-gap })
 				.attr("fill",function(d){return getColor(d)})
 				.attr("opacity",function(d){return 1-0.5*d.ison})
+				.transition()
+				.duration(100)
+				.attr("x", function(d, i) { return x(d.time)+margin.left })
+				.attr("width", function(d){return x(d.len)})
 /*			chart.selectAll("text")
 				.data(blocks)
 				.transition()
@@ -136,12 +154,20 @@
 
 		}
 
+		function trans(para,x)
+		{
+			para.map(function(d){d3.scale.linear().domain()})
+		}
+
 		function getColor(d)
 		{
+			return "rgb("+func[d.type].map(function(f){return Math.round(f(d.len))}).join(",")+")"
 			if (d.type==0)
 				return "rgb(255,51,"+Math.round(255-d.len/maxLens[0]*255)+")"
 			if (d.type==1)
-				return "rgb("+Math.round(d3.scale.linear().domain([0,maxLens[1]]).range([153,0])(d.len))+",153,255)"
+				return "rgb("+func[d.type].map(function(f){return Math.round(f(d.len))}).join(",")+")"
+//				return "rgb(0,0,"+Math.round(d3.scale.linear().domain([0,maxLens[1]]).range([255,100])(d.len))+",255)"
+			//return "rgb("+Math.round(d3.scale.linear().domain([0,maxLens[1]]).range([153,0])(d.len))+",153,255)"
 			if (d.type==2)
 				return "rgb(255,255,"+Math.round(255-d.len/maxLens[2]*255)+")"
 			if (d.type==3)
@@ -152,4 +178,3 @@
 	exports.display=display
 })(this)
 display(jsondata)
-
