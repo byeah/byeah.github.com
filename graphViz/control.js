@@ -1,7 +1,8 @@
 (function(exports)
  {
 	 var viz=null,div=null
-
+	 var data
+	 
 	 function buildRange(name)
 	 {
 		 div=d3.select(name)
@@ -22,27 +23,32 @@
 			 .attr("type","range").attr("onchange","adjust('gravity',this.value)")
 	 }
 
-	 function getColor(d)
+	 function getColor(d,op)
 	 {
 		 var r=(d&0xff000000)>>>24,g=(d&0x00ff0000)>>16,b=(d&0x0000ff00)>>8,a=d&0x000000ff
-		 console.log(r,g,b,a)
-		 return "rgba("+r+","+g+","+b+","+a+")"
+		 return "rgb("+r+","+g+","+b+")"//","+a+")"
 	 }
-
+	 
 	 function showCategory(cate)
 	 {
 		 data=[]
 		 for(var it in cate.items.data)
 			 if (it!="undefined"&&it!=undefined)
-				 data.push(it)
-		 console.log(data)
+				 data.push({name:it,selected:false})
+		 
 		 var svg=div.append("svg").attr("width","100%").attr("height","75%").attr("style","position:absolute;top:25%")
 		 svg.selectAll("circle").data(data).enter().append("circle")
-			 .attr("r",10).attr("cx","15%").attr("cy",function(d,i){return 20+30*i}).attr("fill",function(d){return getColor(cate.colors[cate.items(d)])})
+			 .attr("r",10).attr("cx","15%").attr("cy",function(d,i){return 20+30*i}).attr("fill",function(d){return getColor(cate.colors[cate.items(d.name)],false)}).attr("stroke-width",4).attr("stroke","white")
+			 .on("click",function(d,i){
+				 data[i].selected=!data[i].selected;
+				 var list=data.filter(function(d){return d.selected})
+				 if (list.length==0)
+					 list=data
+				 viz.filterNode(list.map(function(d){return d.name}))
+				 svg.selectAll("circle").data(data).attr("fill",function(d){return getColor(cate.colors[cate.items(d.name)],d.selected)}).attr("stroke",function(d){if (d.selected)return "grey" ;else return "white"})
+			 })
 		 svg.selectAll("text").data(data).enter().append("text")
-			 .text(function(d){return d}).attr("x","25%").attr("y",function(d,i){return 25+30*i})
-		 
-		 
+			 .text(function(d){return d.name}).attr("x","25%").attr("y",function(d,i){return 25+30*i})
 	 }
 	
 	 exports.controller=function(name,v)

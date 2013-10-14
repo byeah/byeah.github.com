@@ -60,19 +60,39 @@
 		 return func
 	 }
 
+	 function addNodes(graph,edges,predicate)
+	 {
+		 tot=0
+		 for(var i=0;i<edges.length;i+=2)
+		 {
+			 var x=parseInt(edges[i]),y=parseInt(edges[i+1])
+			 if (predicate(x)&&predicate(y))
+				 graph.addLink(x,y)
+		 }
+//		 console.log(tot)
+		 return tot
+	 }
+
 	 exports.graphViz=function(data)
 	 {
 		 //Useful data structures
-		 var attr,id,pg
-		 
+		 var attr,id,pg,edges
+		 console.log(data.edges.length)
 		 function buildGraph(data)
 		 {
 			 attr=[],id=[],pg=[]
 			 for(var i=0;i<data.attr.length;i+=2)
 			 {
 				 id[i]=parseInt(data.attr[i])
-				 attr[parseInt(data.attr[i])]=parseInt(data.attr[i+1].substr(0,4))
-				 pg[parseInt(data.pg[i])]=parseFloat(data.pg[i+1])
+				 attr[id[i]]=parseInt(data.attr[i+1].substr(0,4))
+				// attr[id[i]]=data.attr[i+1].substr(0,4)
+			 }
+			 for(var i=0;i<data.pg.length;i+=2)
+			 {
+				 var t=parseInt(data.pg[i])
+				 if(!attr[t])
+					 id.push(t)
+				 pg[t]=parseFloat(data.pg[i+1])
 			 }
 			 id.sort(function(a,b){return pg[b]-pg[a]})
 			 edges=data.edges
@@ -81,20 +101,12 @@
 			 {
 				 if (d<3000)return false
 				 if (pg[d]<pg[id[1000]])return false
-//				 return attr[d]=="1998"
+		//		 return attr[d]=="1998"
 				 return true
 				 //return attr[parseInt(d)]>=0&&attr[parseInt(d)]<3
 			 }
 			 tot=0
-			 for(var i=0;i<edges.length;i+=2)
-			 {
-				 var x=parseInt(edges[i]),y=parseInt(edges[i+1])
-				 if (predicate(x)&&predicate(y))
-				 {
-					 graph.addLink(x,y)
-					 tot++
-				 }
-			 }
+			 addNodes(graph,edges,predicate)
 			 return graph;
 		 }
 		 
@@ -114,8 +126,8 @@
 		 graphics.node(function(node){
 			 var id=node.id
 			 var comm=colors.length-1
-			 if (node.communities.length>0)
-				 comm=hashc(node.communities[0].name)
+			// if (node.communities.length>0)
+			 //comm=hashc(node.communities[0].name)
 			 //return Viva.Graph.View.webglSquare(3+Math.floor(Math.sqrt(node.links.length)*2), colors[comm]);
 			 if (pg[id])
 				 return Viva.Graph.View.webglSquare(3+Math.floor(Math.sqrt(pg[id]*pg[id])*3), colors[hashnode(attr[id])]);
@@ -168,6 +180,28 @@
 					 colors:colors,
 					 items:hashnode
 				 }
+			 },
+
+			 filterNode:function(attrList)
+			 {
+				 graph.clear()
+				 hash=[]
+				 for(var i=0;i<attrList.length;i++)
+					 hash[attrList[i]]=true
+				 var a=addNodes(graph,edges,function(d){
+					 if (d<3000)return false
+					 if (!hash[attr[d]])
+					 {
+//						 console.log(d,attr[d])
+						 return false
+					 }
+					 else
+						 return pg[d]>pg[id[1000]]
+				 })
+				 console.log(a)
+				 renderer.rerender()
+				 
+//				 graph.forEachNode(function(node){graph.removeNode(node.id)})
 			 }
 		 }
 	 }
