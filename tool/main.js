@@ -18,44 +18,25 @@
 		  })()
 	 }
 
-	 function process(data)
+	 var viz;
+
+	 function update(prefix,start)
 	 {
-		 console.log(data)
-		 var id=0;
-		 data.forEach(function(xml){
-			 var importedNode = document.importNode(xml.documentElement, true);
-			 d3.select("body").append("div").attr("style","position:absolute;left:0px;top:0px;height:900px; width: 700px").attr("id","div"+id).node().appendChild(importedNode)
-			 id++;
-		 })
-		 d3.selectAll("path").attr("opacity",".0")
-		 cur=0
-		 setInterval(function()
-					 {
-						 var n=40
-						 for(var i=0;i<n;i++)
-						 {
-							 var gs=d3.select("#div"+i).selectAll("path")
-							 // console.log(gs)
-							 gs.attr("opacity",function(d,i){if (i<=cur)return 4.0/n;else return 0  })
-						 }
-						 cur=cur+1
-						 //console.log(cur)
-					 },100)
+		 console.log(prefix)
+		 if (!start)start=0
+		 files=d3.range(start,start+80).map(function(d){return "../svg/"+prefix+"/"+prefix+"_"+d+".svg"})
+		 loadData(files,viz.init)
 	 }
 	 
-	 exports.main=function(prefix,start)
+	 exports.main=function()
 	 {
-		 //		 var svg=d3.select("body").append("svg")
-		 files=d3.range(start,start+80).map(function(d){return "../svg/"+prefix+"/"+d+".svg"})
-		 //		 console.log(files)
-		 loadData(files,process)
-		 //d3.select("svg").attr("class","c1");
-		 //var paths=d3.selectAll(".c1 g g path")
-		 //.attr("class","cc1").attr("style","stroke:white")
+		 viz=renderer()
+		 update("bicycle")
+		 controller(viz,{update:update})
 	 }
  }
 )(this)
 
-main("bicycle",1681)
+main()
 
 
