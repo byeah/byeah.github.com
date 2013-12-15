@@ -1,0 +1,4 @@
+bicycle
+giraffe
+potted plant
+tomato

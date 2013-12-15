@@ -1,0 +1,13 @@
+bear (animal)
+bell
+bicycle
+dragon
+eyeglasses
+giraffe
+hourglass
+key
+owl
+panda
+potted plant
+revolver
+tomato
